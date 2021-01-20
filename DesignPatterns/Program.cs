@@ -1,6 +1,8 @@
-﻿using DesignPatterns.ChainOfResponsability;
+﻿using DesignPatterns.Builder;
+using DesignPatterns.ChainOfResponsability;
 using DesignPatterns.Decorator;
 using DesignPatterns.Estrategy;
+using DesignPatterns.Observer;
 using DesignPatterns.TemplateMethod;
 using System;
 
@@ -10,7 +12,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-           
+            new DesignPatternsObserver().MainExemploDesignPatternsObserver();
 
             Console.ReadKey();
 
