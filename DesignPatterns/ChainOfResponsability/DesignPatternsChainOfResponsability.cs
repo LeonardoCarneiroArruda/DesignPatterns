@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatterns.ChainOfResponsability
 {
-    public class DesignPatternsChainOfResponsability
+    public class DesignPatternsChainOfResponsability : IDesignPatterns
     {
-        public void MainExemploChainOfResponsability()
+        public void MainExemplo()
         {
             CalculadorDeDescontos calculador = new CalculadorDeDescontos();
             Orcamento orcamento = new Orcamento(600);

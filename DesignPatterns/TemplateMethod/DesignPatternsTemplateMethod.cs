@@ -5,10 +5,10 @@ using System.Text;
 
 namespace DesignPatterns.TemplateMethod
 {
-    public class DesignPatternsTemplateMethod
+    public class DesignPatternsTemplateMethod : IDesignPatterns
     {
 
-        public void MainExemploTemplateMethod()
+        public void MainExemplo()
         {
             var calculador = new CalculadorDeImpostos();
             Orcamento orcamento = new Orcamento(680);

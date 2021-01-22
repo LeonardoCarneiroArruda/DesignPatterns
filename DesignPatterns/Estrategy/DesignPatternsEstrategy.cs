@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DesignPatterns.Estrategy
 {
-    public class DesignPatternsEstrategy
+    public class DesignPatternsEstrategy : IDesignPatterns
     {
 
-        public void MainExemploEstrategy()
+        public void MainExemplo()
         {
             Imposto iss = new ISS();
             Imposto icms = new ICMS();

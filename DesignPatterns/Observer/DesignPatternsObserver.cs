@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatterns.Observer
 {
-    public class DesignPatternsObserver
+    public class DesignPatternsObserver : IDesignPatterns
     {
-        public void MainExemploDesignPatternsObserver()
+        public void MainExemplo()
         {
             NotaFiscalBuilder criador = new NotaFiscalBuilder();
             criador.ParaEmpresa("Empresa de fachada")

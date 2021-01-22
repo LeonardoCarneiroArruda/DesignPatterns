@@ -5,10 +5,10 @@ using System.Text;
 
 namespace DesignPatterns.Factory
 {
-    public class DesignPatternsFactory
+    public class DesignPatternsFactory : IDesignPatterns
     {
 
-        public void MainExemploDesignPatternsFactory()
+        public void MainExemplo()
         {
             IDbConnection conexao = new ConnectionFactory().GetConnection();
 

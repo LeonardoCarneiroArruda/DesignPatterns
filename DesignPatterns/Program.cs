@@ -1,15 +1,5 @@
-﻿using DesignPatterns.Builder;
-using DesignPatterns.ChainOfResponsability;
-using DesignPatterns.Decorator;
-using DesignPatterns.Estrategy;
-using DesignPatterns.Factory;
-using DesignPatterns.Flyweight;
-using DesignPatterns.Memento;
-using DesignPatterns.Observer;
-using DesignPatterns.TemplateMethod;
+﻿using DesignPatterns.Command;
 using System;
-using System.Data;
-using System.Data.SqlClient;
 
 namespace DesignPatterns
 {
@@ -17,7 +7,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            new DesignPatternsMemento().MainExemploDesignPatternsMemento();
+            IDesignPatterns designExemplo = new DesignPatternsCommand();
+            designExemplo.MainExemplo();
 
 
             Console.ReadKey();

@@ -5,9 +5,9 @@ using System.Text;
 
 namespace DesignPatterns.State
 {
-    public class DesignPatternsState
+    public class DesignPatternsState : IDesignPatterns
     {
-        public void MainExemploState()
+        public void MainExemplo()
         {
             Orcamento reforma = new Orcamento(500);
             Console.WriteLine(reforma.Valor);

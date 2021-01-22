@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatterns.Memento
 {
-    public class DesignPatternsMemento
+    public class DesignPatternsMemento : IDesignPatterns
     {
-        public void MainExemploDesignPatternsMemento()
+        public void MainExemplo()
         {
 
             Historico historico = new Historico();

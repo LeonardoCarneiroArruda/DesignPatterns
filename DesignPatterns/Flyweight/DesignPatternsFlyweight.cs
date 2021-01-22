@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DesignPatterns.Flyweight
 {
-    public class DesignPatternsFlyweight
+    public class DesignPatternsFlyweight : IDesignPatterns
     {
 
-        public void MainExemploDesignPatternsFlyweight()
+        public void MainExemplo()
         {
             NotasMusicais notasMusicais = new NotasMusicais();
 

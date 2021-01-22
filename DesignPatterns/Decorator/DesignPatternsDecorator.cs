@@ -5,10 +5,10 @@ using System.Text;
 
 namespace DesignPatterns.Decorator
 {
-    public class DesignPatternsDecorator
+    public class DesignPatternsDecorator : IDesignPatterns
     {
 
-        public void MainExemploDecorator()
+        public void MainExemplo()
         {
             ImpostoAbstract iss = new ImpostoISS(new ImpostoICMS());
 

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPatterns.Builder
 {
-    public class DesignPatternsBuilder
+    public class DesignPatternsBuilder : IDesignPatterns
     {
-        public void MainExemploDesignPatternsBuilder()
+        public void MainExemplo()
         {
             NotaFiscalBuilder criador = new NotaFiscalBuilder();
             criador.ParaEmpresa("Empresa de fachada")
