@@ -1,4 +1,6 @@
-﻿using DesignPatterns.Command;
+﻿using DesignPatterns.Adapter;
+using DesignPatterns.Command;
+using DesignPatterns.Facades;
 using System;
 
 namespace DesignPatterns
@@ -7,7 +9,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            IDesignPatterns designExemplo = new DesignPatternsCommand();
+            IDesignPatterns designExemplo = new DesignPatternsFacade();
             designExemplo.MainExemplo();
 
 
