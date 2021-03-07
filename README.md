@@ -22,3 +22,4 @@ Exemplos implementados:
 * State
 * Template Method
 * Visitor
+* Mediator
