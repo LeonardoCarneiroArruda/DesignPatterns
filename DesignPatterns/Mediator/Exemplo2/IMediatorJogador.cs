@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Mediator.Exemplo2
 {
-    public interface IMediator
+    public interface IMediatorJogador
     {
         Task Send(SubstituirJogadorCommand handler);
     }

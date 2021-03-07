@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Mediator.Exemplo2
 {
-    public class SubstituirJogadorCommandHandler : IRequestHandler
+    public class SubstituirJogadorCommandHandler : IHandler
     {
         
         public Task<IEnumerable<Jogador>> Handle(SubstituirJogadorCommand request)
         {
             
-            request.Tecnico.PedeSubstituicao(request.JogadorNoBanco.Nome, request.JogadorEmCampo.Nome);
-            request.QuartoArbitro.LevantaPlaca(request.JogadorNoBanco.Numero, request.JogadorEmCampo.Numero);
+            Console.WriteLine(request.Tecnico.PedeSubstituicao(request.JogadorNoBanco.Nome, request.JogadorEmCampo.Nome));
+            Console.WriteLine(request.QuartoArbitro.LevantaPlaca(request.JogadorNoBanco.Numero, request.JogadorEmCampo.Numero));
             return Task.FromResult(
                 SubstituiJogador(
                     request.Tecnico.Time,

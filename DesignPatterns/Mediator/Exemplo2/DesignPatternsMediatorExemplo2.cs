@@ -13,7 +13,7 @@ namespace DesignPatterns.Mediator.Exemplo2
             Jogador jogadorQueSai = new Jogador("Pele", 10, true);
             Jogador jogadorQueEntra = new Jogador("Maradona", 11, false);
 
-            IMediator mediador = new Mediador(new SubstituirJogadorCommandHandler());
+            IMediatorJogador mediador = new Mediador(new SubstituirJogadorCommandHandler());
             mediador.Send(new SubstituirJogadorCommand(tecnico, jogadorQueSai, jogadorQueEntra, quartoArbitro));
 
         }

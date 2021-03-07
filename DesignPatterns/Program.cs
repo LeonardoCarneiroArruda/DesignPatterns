@@ -11,7 +11,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            IDesignPatterns designExemplo = new DesignPatternsExemplo2();
+            IDesignPatterns designExemplo = new DesignPatternsMediatorExemplo2();
             designExemplo.MainExemplo();
 
 

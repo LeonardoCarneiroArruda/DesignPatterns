@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Mediator.Exemplo2
 {
-    public interface IRequestHandler
+    public interface IHandler
     {
         Task<IEnumerable<Jogador>> Handle(SubstituirJogadorCommand request);
     }

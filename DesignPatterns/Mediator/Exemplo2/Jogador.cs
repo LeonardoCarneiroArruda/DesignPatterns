@@ -20,11 +20,13 @@ namespace DesignPatterns.Mediator.Exemplo2
         }
         public void SaiDeCampo()
         {
+            Console.WriteLine($"{this.Nome} está saindo de campo.");
             EstaEmCampo = false;
         }
 
         public void EntraEmCampo()
         {
+            Console.WriteLine($"{this.Nome} está entrando no campo.");
             EstaEmCampo = true;
         }
     }
