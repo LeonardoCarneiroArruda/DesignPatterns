@@ -1,6 +1,8 @@
 ﻿using DesignPatterns.Adapter;
 using DesignPatterns.Command;
 using DesignPatterns.Facades;
+using DesignPatterns.Mediator.Exemplo1;
+using DesignPatterns.Mediator.Exemplo2;
 using System;
 
 namespace DesignPatterns
@@ -9,7 +11,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            IDesignPatterns designExemplo = new DesignPatternsFacade();
+            IDesignPatterns designExemplo = new DesignPatternsExemplo2();
             designExemplo.MainExemplo();
 
 
