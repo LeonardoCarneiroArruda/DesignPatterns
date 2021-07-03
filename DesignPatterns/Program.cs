@@ -3,6 +3,7 @@ using DesignPatterns.Command;
 using DesignPatterns.Facades;
 using DesignPatterns.Mediator.Exemplo1;
 using DesignPatterns.Mediator.Exemplo2;
+using DesignPatterns.Observer.ObserverExemplo2;
 using System;
 
 namespace DesignPatterns
@@ -11,7 +12,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            IDesignPatterns designExemplo = new DesignPatternsMediatorExemplo2();
+            IDesignPatterns designExemplo = new DesignPatternObserverExemplo2();
             designExemplo.MainExemplo();
 
 
